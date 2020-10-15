@@ -1462,7 +1462,23 @@ public class GT_Loader_MetaTileEntities implements Runnable {
         generateFluidMultiPipes(Materials.TungstenSteel, Materials.TungstenSteel.mName, "Tungstensteel", 5225, 600, 7500, true);
         generateFluidMultiPipes(Materials.Plastic, Materials.Plastic.mName, "Plastic", 5230, 360, 350, true);
         generateFluidMultiPipes(Materials.Polytetrafluoroethylene, Materials.Polytetrafluoroethylene.mName, "PTFE", 5235, 480, 600, true);
-        generateFluidPipes(Materials.IronWood, Materials.IronWood.mName,"IronWood", 5240, 120, 1977, true);
+        generateFluidPipes(Materials.IronWood, Materials.IronWood.mName, "IronWood", 5240, 120, 1975, true);
+        generateFluidPipes(Materials.Invar, Materials.Invar.mName, "Invar", 5245, 60, 2395, true);
+        generateFluidPipes(Materials.Rubber, Materials.Rubber.mName, "Rubber", 5250, 30, 350, true);
+        generateFluidPipes(Materials.TinAlloy, Materials.TinAlloy.mName, "Tin Alloy", 5255, 37, 1572, true);
+        generateFluidPipes(Materials.Iridium, Materials.Iridium.mName, "Iridium", 5260, 150, 3398, true);
+        generateFluidPipes(Materials.Aluminium, Materials.Aluminium.mName, "Aluminium", 5265, 30, 1166, true);
+        generateFluidPipes(Materials.Desh, Materials.Desh.mName, "Desh", 5270, 60, 2557, true);
+        generateFluidPipes(Materials.TungstenCarbide, Materials.TungstenCarbide.mName, "Tungsten Carbide", 5275, 135, 3837, true);
+        //generateFluidPipes(Materials.TantalumHafniumCarbide, Materials.TantalumHafniumCarbide.mName, "Tantalum Hafnium Carbide", 5320, 300, 5328, true);
+        generateFluidMultiPipes(Materials.IronWood, Materials.IronWood.mName, "IronWood", 5280, 120, 1975, true);
+        generateFluidMultiPipes(Materials.Invar, Materials.Invar.mName, "Invar", 5285, 60, 5335, true);
+        generateFluidMultiPipes(Materials.TinAlloy, Materials.TinAlloy.mName, "Tin Alloy", 5290, 37, 1572, true);
+        generateFluidMultiPipes(Materials.Iridium, Materials.Iridium.mName, "Iridium", 5295, 150, 3398, true);
+        generateFluidMultiPipes(Materials.Aluminium, Materials.Aluminium.mName, "Aluminium", 5300, 30, 1166, true);
+        generateFluidMultiPipes(Materials.Desh, Materials.Desh.mName, "Desh", 5305, 60, 2557, true);
+        generateFluidMultiPipes(Materials.TungstenCarbide, Materials.TungstenCarbide.mName, "Tungsten Carbide", 5310, 135, 3837, true);
+        
 
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeSmall, Materials.TungstenSteel, 1L), ItemList.Electric_Pump_EV.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeSmall, Materials.Ultimate, 1L), 300, 96);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.pipeMedium, Materials.TungstenSteel, 1L), ItemList.Electric_Pump_IV.get(1L, new Object[0]), GT_OreDictUnificator.get(OrePrefixes.pipeMedium, Materials.Ultimate, 1L), 400, 148);
@@ -1501,14 +1517,19 @@ public class GT_Loader_MetaTileEntities implements Runnable {
         generateItemPipes(Materials.Osmium, Materials.Osmium.mName, 5632, 8);
         generateItemPipes(Materials.PolyvinylChloride, Materials.PolyvinylChloride.mName, "PVC", 5640, 4);
         //generateItemPipes(Materials.WroughtIron, Materials.WroughtIron.mName, 5646, 1);
-        generateItemPipes(Materials.Nickel, Materials.Nickel.mName, 5652, 1);
+        //generateItemPipes(Materials.Nickel, Materials.Nickel.mName, 5652, 1);
         //generateItemPipes(Materials.Cobalt, Materials.Cobalt.mName, 5658, 2);
-        generateItemPipes(Materials.Aluminium, Materials.Aluminium.mName, 5664, 2);
+        //generateItemPipes(Materials.Aluminium, Materials.Aluminium.mName, 5664, 2);
         generateItemPipes(Materials.Cupronickel, Materials.Cupronickel.mName, 5646, 1);
         generateItemPipes(Materials.CobaltBrass, Materials.CobaltBrass.mName, 5658, 1);
         generateItemPipes(Materials.RoseGold, Materials.RoseGold.mName, 5682, 2);
         generateItemPipes(Materials.SterlingSilver, Materials.SterlingSilver.mName, 5670, 2);
-        generateItemPipes(Materials.Ultimet, Materials.Ultimet.mName, 5676, 4);
+        generateItemPipes(Materials.Ultimet, Materials.Ultimet.mName, 5676, 16);
+        generateItemPipes(Materials.Angmallen, Materials.Angmallen.mName, 5652, 2);
+        generateItemPipes(Materials.BlackBronze, Materials.BlackBronze.mName, 5688, 2);
+        generateItemPipes(Materials.AluminiumBrass, Materials.AluminiumBrass.mName, 5694, 2);
+        generateItemPipes(Materials.Enderium, Materials.Enderium.mName, 5700, 16);
+        generateItemPipes(Materials.Osmiridium, Materials.Osmiridium.mName, 5706, 16);
 
 
         ItemList.Automation_ChestBuffer_ULV.set(new GT_MetaTileEntity_ChestBuffer(9230, "automation.chestbuffer.tier.00", "Ultra Low Voltage Chest Buffer", 0).getStackForm(1L));
